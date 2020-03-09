@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<title>Attribute Range Rule</title>
+</head>
+<body onload="loadTables()">
+<h2>Attribute Range Rule</h2>
+<form method="POST" action="ARNGSuccess.html">
+  <fieldset>
+    Business Rule ID: <input type="text" name="name" /><br /><br />
+    Table Name: <select name="table" id="tables" onchange="loadColumns()"></select><br /><br />
+    Column Name: <select name="column" id="columns"></select><br /><br />
+    Minimum Value: <input type="text" name="minvalue" /><br /><br />
+    Maximum Value: <input type="text" name="maxvalue" /><br /><br />
+    Operator: <select name="operator" id="operator">
+    <option value="BETWEEN">between</option>
+    <option value="NOT BETWEEN">Not between</option>
+    </select><br /><br />
+    Exception: <input type="text" name="exception" /><br /><br />
+    
+  	<input type="submit"name="Button" value="Create Rule"/>
+  	<input type="reset" value="Remove Values"/>
+  </fieldset>
+  </form>
+<script src="JS/tablesAndColumns.js"></script>
+</body>
+</html>

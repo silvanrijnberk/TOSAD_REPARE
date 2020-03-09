@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<title>Modify Rule</title>
+</head>
+<body onload="loadTables()">
+<h2>Modify Rule:</h2>
+<form method="POST" action="MODISuccess.html">
+  <fieldset>
+    Business Rule ID: <input type="text" name="name" /><br /><br />
+    Table Name: <select name="firsttablevalue" id="tables" onchange="loadColumnsDouble()"></select><br /><br />
+    Input Column: <select name="firstcolumnvalue" id="columns"></select><br /><br />
+    Check Column: <select name="secondcolumnvalue" id="columns2"></select><br /><br />
+    Operator: <select name="operator" id="operator">
+    <option value=">"> > </option>
+    <option value="<"><</option>
+    <option value="=">=</option>
+    <option value="!=">!=</option>
+    <option value=">=">>=</option>
+    <option value="<="><=</option>
+  </select><br /><br />
+    Check Value: <input type="text" name="checkvalue" /><br /><br />
+    Exception: <input type="text" name="exception" /><br /><br />
+    
+  	<input type="submit"name="Button" value="Create Rule"/>
+  	<input type="reset" value="Remove Values"/>
+  </fieldset>
+  </form>
+<script src="JS/tablesAndColumns.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+  <title>Attribute Compare Rule</title>
+</head>
+<body onload="loadTables()">
+<h2>Attribute Compare Rule</h2>
+<form method="POST" action="ACMPSuccess.html">
+  <fieldset>
+    Business Rule ID: <input type="text" name="name" /><br /><br />
+    Table Name: <select name="table" id="tables" onchange="loadColumns()"></select><br /><br />
+    Column Name: <select name="column" id="columns"></select><br /><br />
+    CompareValue: <input type="text" name="comparevalue" /><br /><br />
+    Operator: <select name="operator" id="operator">
+    <option value=">">Column1 > Column2</option>
+    <option value="<">Column1 < Column2</option>
+    <option value="=">Column1 = Column2</option>
+    <option value="!=">Column1 != Column2</option>
+    <option value=">=">Column1 >= Column2</option>
+    <option value="<=">Column1 <= Column2</option>
+  </select><br /><br />
+    Exception: <input type="text" name="exception" /><br /><br />
+
+    <input type="submit"name="Button" value="Create Rule"/>
+    <input type="reset" value="Remove Values"/>
+  </fieldset>
+</form>
+<script src="JS/tablesAndColumns.js"></script>
+</body>
+</html>

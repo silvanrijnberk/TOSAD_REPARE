@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<title>Attribute Other Rule</title>
+</head>
+<body>
+<h2>Attribute Other Rule</h2>
+<form method="POST" action="AOTHSuccess.html">
+  <fieldset>
+    Business Rule ID: <input type="text" name="name" /><br /><br />
+    Table Name: <input type="text" name="table" /><br /><br />
+    Column Value: <input type="text" name="column" /><br /><br />
+    Operator: <select name="operator" id="operator">
+    <option value=">">Column1 > Column2</option>
+    <option value="<">Column1 < Column2</option>
+    <option value="=">Column1 = Column2</option>
+    <option value="!=">Column1 != Column2</option>
+    <option value=">=">Column1 >= Column2</option>
+    <option value="<=">Column1 <= Column2</option>
+  </select><br /><br />
+    Sql Query: <input type="text" name="sqlQuery" /><br /><br />
+    Exception: <input type="text" name="exception" /><br /><br />
+    
+    
+  	<input type="submit"name="Button" value="Create Rule"/>
+  	<input type="reset" value="Remove Values"/>
+  </fieldset>
+  </form>
+
+</body>
+</html>

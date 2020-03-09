@@ -1,0 +1,122 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Business Rule Geneator</display-name>
+  
+<servlet>
+	<servlet-name>ACMPService</servlet-name>
+	<servlet-class>WebServices.ACMPService</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>maintainService</servlet-name>
+	<servlet-class>WebServices.maintainService</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ALISService</servlet-name>
+	<servlet-class>WebServices.ALISService</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>newOtherRule</servlet-name>
+	<servlet-class>WebServices.AOTHService</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>newRangeRule</servlet-name>
+	<servlet-class>WebServices.ARNGService</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>newEntityOtherRule</servlet-name>
+	<servlet-class>WebServices.EOTHService</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>newInterEntityCompareRule</servlet-name>
+	<servlet-class>WebServices.ICMPService</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>newModifyRule</servlet-name>
+	<servlet-class>WebServices.MODIService</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>newTupleCompareRule</servlet-name>
+	<servlet-class>WebServices.TCMPService</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>newTupleOtherRule</servlet-name>
+	<servlet-class>WebServices.TOTHService</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+	<servlet-name>maintainService</servlet-name>
+	<url-pattern>/maintain.html</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ACMPService</servlet-name>
+	<url-pattern>/ACMPSuccess.html</url-pattern>
+</servlet-mapping>
+
+	<servlet-mapping>
+	<servlet-name>ALISService</servlet-name>
+	<url-pattern>/ALISSuccess.html</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>newOtherRule</servlet-name>
+	<url-pattern>/AOTHSuccess.html</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>newRangeRule</servlet-name>
+	<url-pattern>/ARNGSuccess.html</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>newEntityOtherRule</servlet-name>
+	<url-pattern>/EOTHSuccess.html</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>newInterEntityCompareRule</servlet-name>
+	<url-pattern>/ICMPSuccess.html</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>newModifyRule</servlet-name>
+	<url-pattern>/MODISuccess.html</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>newTupleCompareRule</servlet-name>
+	<url-pattern>/TCMPSuccess.html</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>newTupleOtherRule</servlet-name>
+	<url-pattern>/TOTHSuccess.html</url-pattern>
+</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Jersey REST Service</servlet-name>
+		<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+		<init-param>
+			<param-name>jersey.config.server.provider.packages</param-name>
+			<param-value>WebServices</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Jersey REST Service</servlet-name>
+		<url-pattern>/rest/*</url-pattern>
+	</servlet-mapping>
+
+</web-app>
+
+

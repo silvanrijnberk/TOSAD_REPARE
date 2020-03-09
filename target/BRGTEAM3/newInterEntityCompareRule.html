@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<title>Inter Entity Compare Rule</title>
+</head>
+<body onload="loadTablesDouble()">
+<h2>Inter Entity Compare Rule:</h2>
+<form method="POST" action="ICMPSuccess.html">
+  <fieldset>
+    Business Rule ID: <input type="text" name="name" /><br /><br />
+    Table 1: <select name="table" id="tables" onchange="loadColumns(), updateSelected(), fillTables2()"></select><br /><br />
+    Column 1: <select name="column" id="columns"></select><br /><br />
+    Table 2: <select name="table2" id="tables2" onchange="loadColumns2Tables2(), updateSelected2()"></select><br /><br />
+    Column 2: <select name="column2" id="columns2"></select><br /><br />
+    Operator: <select name="operator" id="operator">
+    <option value=">">Column1 > Column2</option>
+    <option value="<">Column1 < Column2</option>
+    <option value="=">Column1 = Column2</option>
+    <option value="!=">Column1 != Column2</option>
+    <option value=">=">Column1 >= Column2</option>
+    <option value="<=">Column1 <= Column2</option>
+  </select><br /><br />
+    Exception: <input type="text" name="exception" /><br /><br />
+    
+  	<input type="submit"name="Button" value="Create Rule"/>
+  	<input type="reset" value="Remove Values"/>
+  </fieldset>
+  </form>
+<script src="JS/ICMPruleJS.js"></script>
+</body>
+</html>

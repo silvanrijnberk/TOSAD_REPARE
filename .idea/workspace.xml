@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BRGTEAM3:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c59b25cf-2533-48a0-8cdc-80c5d7fab85c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessRules/AttributeRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessRules/BusinessRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessRules/BusinessRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessRules/EntityRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessRules/InterEntityRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessRules/ModifyRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessRules/TupleRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/AttributeCompareRuleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/AttributeCompareRuleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/AttributeListRuleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/AttributeListRuleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/AttributeOtherRuleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/AttributeOtherRuleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/AttributeRangeRuleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/AttributeRangeRuleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/EntityOtherRuleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/EntityOtherRuleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/FacadeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/FacadeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/InterEntityCompareRuleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/InterEntityCompareRuleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/ModifyRuleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/ModifyRuleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/TupleCompareRuleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/TupleCompareRuleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/TupleOtherRuleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/TupleOtherRuleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FuncTests/GeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FuncTests/GeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scripts/ACMPScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scripts/ACMPScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scripts/ALISScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scripts/ALISScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scripts/AOTHScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scripts/AOTHScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scripts/ARNGScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scripts/ARNGScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scripts/Constraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scripts/Constraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scripts/EOTHScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scripts/EOTHScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scripts/FacadeRuleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scripts/FacadeRuleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scripts/ICMPScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scripts/ICMPScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scripts/MODIScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scripts/MODIScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scripts/ScriptFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scripts/ScriptFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scripts/TCMPScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scripts/TCMPScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scripts/TOTHScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scripts/TOTHScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebServices/ACMPService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebServices/ACMPService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebServices/ALISService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebServices/ALISService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebServices/AOTHService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebServices/AOTHService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebServices/ARNGService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebServices/ARNGService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebServices/ConstraintService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebServices/ConstraintService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebServices/EOTHService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebServices/EOTHService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebServices/ICMPService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebServices/ICMPService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebServices/MODIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebServices/MODIService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebServices/TCMPService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebServices/TCMPService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebServices/TOTHService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebServices/TOTHService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Define.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/Define.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Define.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Define.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ICMPruleJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/JS/ICMPruleJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/Index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/maintain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/newAttributeCompareRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/newAttributeCompareRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/newAttributeListRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/newAttributeListRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/newAttributeOtherRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/newAttributeOtherRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/newAttributeRangeRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/newAttributeRangeRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/newEntityOtherRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/newEntityOtherRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/newInterEntityCompareRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/newInterEntityCompareRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/newModifyRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/newModifyRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/newTupleCompareRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/newTupleCompareRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/newTupleOtherRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/newTupleOtherRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/tablesAndColumns.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/JS/tablesAndColumns.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/Define.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/Define.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/Define.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/ICMPruleJS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/Index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/BusinessRules/AttributeRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/BusinessRules/BusinessRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/BusinessRules/BusinessRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/BusinessRules/EntityRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/BusinessRules/InterEntityRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/BusinessRules/ModifyRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/BusinessRules/TupleRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/AttributeCompareRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/AttributeCompareRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/AttributeListRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/AttributeListRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/AttributeOtherRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/AttributeOtherRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/AttributeRangeRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/AttributeRangeRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/EntityOtherRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/EntityOtherRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/FacadeDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/FacadeDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/InterEntityCompareRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/InterEntityCompareRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/ModifyRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/ModifyRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/TupleCompareRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/TupleCompareRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/TupleOtherRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/DAO/TupleOtherRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/FuncTests/GeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/ACMPScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/ACMPScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/ALISScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/ALISScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/AOTHScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/AOTHScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/ARNGScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/ARNGScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/Constraint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/EOTHScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/EOTHScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/FacadeRuleImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/ICMPScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/ICMPScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/MODIScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/MODIScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/ScriptFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/ScriptFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/TCMPScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/TCMPScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/TOTHScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/Scripts/TOTHScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/ACMPService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/ACMPService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/ALISService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/ALISService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/AOTHService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/AOTHService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/ARNGService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/ARNGService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/ConstraintService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/EOTHService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/EOTHService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/ICMPService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/ICMPService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/MODIService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/MODIService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/TCMPService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/TCMPService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/TOTHService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/classes/WebServices/TOTHService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/lib/ojdbc8-12.2.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/WEB-INF/lib/ojdbc8-12.2.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/maintain.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/maintain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/newAttributeCompareRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/newAttributeCompareRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/newAttributeListRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/newAttributeListRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/newAttributeOtherRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/newAttributeOtherRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/newAttributeRangeRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/newAttributeRangeRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/newEntityOtherRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/newEntityOtherRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/newInterEntityCompareRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/newInterEntityCompareRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/newModifyRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/newModifyRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/newTupleCompareRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/newTupleCompareRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/newTupleOtherRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/BRGTEAM3/newTupleOtherRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/tablesAndColumns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BRGTEAM3/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BusinessRules/AttributeRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BusinessRules/BusinessRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessRules/BusinessRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BusinessRules/EntityRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BusinessRules/InterEntityRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BusinessRules/ModifyRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BusinessRules/TupleRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/AttributeCompareRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/AttributeCompareRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/AttributeListRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/AttributeListRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/AttributeOtherRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/AttributeOtherRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/AttributeRangeRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/AttributeRangeRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/EntityOtherRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/EntityOtherRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/FacadeDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/FacadeDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/InterEntityCompareRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/InterEntityCompareRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/ModifyRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/ModifyRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/TupleCompareRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/TupleCompareRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/TupleOtherRuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/TupleOtherRuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FuncTests/GeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/ACMPScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Scripts/ACMPScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/ALISScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Scripts/ALISScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/AOTHScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Scripts/AOTHScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/ARNGScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Scripts/ARNGScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/Constraint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/EOTHScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Scripts/EOTHScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/FacadeRuleImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/ICMPScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Scripts/ICMPScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/MODIScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Scripts/MODIScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/ScriptFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Scripts/ScriptFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/TCMPScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Scripts/TCMPScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/TOTHScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Scripts/TOTHScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebServices/ACMPService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebServices/ACMPService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebServices/ALISService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebServices/ALISService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebServices/AOTHService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebServices/AOTHService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebServices/ARNGService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebServices/ARNGService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebServices/ConstraintService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebServices/EOTHService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebServices/EOTHService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebServices/ICMPService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebServices/ICMPService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebServices/MODIService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebServices/MODIService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebServices/TCMPService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebServices/TCMPService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebServices/TOTHService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebServices/TOTHService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/BusinessRuleGenerator/BRGTEAM3/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/BusinessRuleGenerator/BRGTEAM3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="kees" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1XwiVygAdB2vuv7P3B2L59qXdG5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TOSAD_REPARE" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\TOSAD_LAST_VERSION_TEST\TOSAD_GITV2\src\main\webapp\JS" />
+      <recent name="C:\TOSAD_LAST_VERSION_TEST\TOSAD_GITV2\src\main\webapp\CSS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\TOSAD_LAST_VERSION_TEST\TOSAD_GITV2\src\main\webapp" />
+      <recent name="C:\TOSAD_LAST_VERSION_TEST\TOSAD_GITV2\src\main\java\DAO" />
+      <recent name="C:\TOSAD_LAST_VERSION_TEST\TOSAD_GITV2\src\main\java\WebServices" />
+      <recent name="C:\TOSAD_LAST_VERSION_TEST\TOSAD_GITV2\src\main\webapp\CSS" />
+      <recent name="C:\TOSAD_LAST_VERSION_TEST\TOSAD_GITV2\src\main\webapp\JS" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.31">
+    <configuration name="keysDAOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DAO.keysDAOTest" />
+      <module name="BRGTEAM3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="BRGTEAM3:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/BRGTEAM3" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_TOSAD_GIT" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="HTTPS_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56229" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BRGTEAM3:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.keysDAOTest" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.31" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.keysDAOTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.32612312" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c59b25cf-2533-48a0-8cdc-80c5d7fab85c" name="Default Changelist" comment="" />
+      <created>1581963584620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581963584620</updated>
+      <workItem from="1581963585850" duration="875000" />
+      <workItem from="1581964462496" duration="8140000" />
+      <workItem from="1581979978268" duration="682000" />
+      <workItem from="1582034131843" duration="35636000" />
+      <workItem from="1582116671172" duration="1510000" />
+      <workItem from="1582120816644" duration="514000" />
+      <workItem from="1582121498105" duration="33041000" />
+      <workItem from="1582159277659" duration="8697000" />
+      <workItem from="1582202492858" duration="848000" />
+      <workItem from="1582208008135" duration="511000" />
+      <workItem from="1582208552096" duration="2465000" />
+      <workItem from="1582213994780" duration="436000" />
+      <workItem from="1583769184531" duration="550000" />
+    </task>
+    <task id="LOCAL-00001" summary="arng bijna klaar">
+      <created>1582038115381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582038115381</updated>
+    </task>
+    <task id="LOCAL-00002" summary="arng goed nu">
+      <created>1582040587574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582040587574</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="arng bijna klaar" />
+    <MESSAGE value="arng goed nu" />
+    <option name="LAST_COMMIT_MESSAGE" value="arng goed nu" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="736" y="241" key="#Project_Structure" timestamp="1583769192819">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1581963593882" />
+    <state x="736" y="241" key="#Project_Structure/2560.360.1920.1040/-1920.360.1920.1080/0.0.2560.1400@0.0.2560.1400" timestamp="1583769192819" />
+    <state x="468" y="140" key="#Tomcat_Server" timestamp="1582208688060">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="140" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1582208688060" />
+    <state x="331" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582209517920">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="331" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582209517920" />
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581968827947" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1582131225117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582131225117" />
+    <state x="468" y="140" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1582209497749">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="140" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1582209497749" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582168501636">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582168501636" />
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1582079966860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582079966860" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1581969862329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581969862329" />
+    <state x="985" y="353" key="FileChooserDialogImpl" timestamp="1583769733013">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="591" y="208" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582209490787" />
+    <state x="739" y="263" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582152807398" />
+    <state x="985" y="353" key="FileChooserDialogImpl/2560.360.1920.1040/-1920.360.1920.1080/0.0.2560.1400@0.0.2560.1400" timestamp="1583769733013" />
+    <state width="307" height="696" key="GridCell.Tab.0.bottom" timestamp="1582216289275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="307" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582216289275" />
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582170614243" />
+    <state width="307" height="696" key="GridCell.Tab.0.center" timestamp="1582216289275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="307" height="696" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582216289275" />
+    <state width="1877" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582170614242" />
+    <state width="307" height="696" key="GridCell.Tab.0.left" timestamp="1582216289275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="307" height="696" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582216289275" />
+    <state width="1877" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582170614242" />
+    <state width="307" height="696" key="GridCell.Tab.0.right" timestamp="1582216289275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="307" height="696" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582216289275" />
+    <state width="1877" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582170614243" />
+    <state width="307" height="696" key="GridCell.Tab.1.bottom" timestamp="1582216289275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="307" height="696" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582216289275" />
+    <state width="307" height="696" key="GridCell.Tab.1.center" timestamp="1582216289275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="307" height="696" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582216289275" />
+    <state width="307" height="696" key="GridCell.Tab.1.left" timestamp="1582216289275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="307" height="696" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582216289275" />
+    <state width="307" height="696" key="GridCell.Tab.1.right" timestamp="1582216289275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="307" height="696" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582216289275" />
+    <state width="307" height="696" key="GridCell.Tab.2.bottom" timestamp="1582216289275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="307" height="696" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582216289275" />
+    <state width="307" height="696" key="GridCell.Tab.2.center" timestamp="1582216289275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="307" height="696" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1582216289275" />
+    <state width="307" height="696" key="GridCell.Tab.2.left" timestamp="1582216289275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="307" height="696" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1582216289275" />
+    <state width="307" height="696" key="GridCell.Tab.2.right" timestamp="1582216289275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="307" height="696" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1582216289275" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1581964404928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581964404928" />
+    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1581969862329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581969862329" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582040632604">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582040632604" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1581969862329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581969862329" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1582213996970">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582213996970" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582205146383" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581971979066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581971979066" />
+    <state x="645" y="239" key="git4idea.branch.GitBranchIsNotFullyMergedDialog" timestamp="1581970507396">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="239" key="git4idea.branch.GitBranchIsNotFullyMergedDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581970507396" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1582135445240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582135445240" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582141709339">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582141709339" />
+  </component>
+</project>
